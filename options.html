@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title>扫描配置</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<style>
+	body{
+		background-color:#ffffff;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333;
+	}
+	
+	textarea{
+		width:500px;
+		height:100px;
+	}
+	
+	#content{
+		width:600px;
+		margin: 0 auto;	
+	}
+
+
+	.control-group{
+		margin-bottom: 0;
+	}
+
+	.options{
+		
+		float:left;
+		margin:5px
+	}
+	
+	.text-label{
+		width:90px;
+		padding-top: 10px;
+		text-align: right;
+		float: left;
+	}
+	
+	#save_btn{
+		float:right;
+	}
+	#clear_btn{
+		float:right;
+	}
+		</style>
+	<script src="/js/options.js"></script>
+	</head>
+
+<body>
+	<center><h2>配置页面</h2></center>
+	<center><h4>扫描HOST域：设置可以扫描的HOST域，如163.com则只能扫描163.com页面下的url。点击SAVE保存<br>问题URL缓存：该工具扫描时产生的缓存，方便查看缓存清除情况，点击Clear_Cache清除缓存，log结果输出页面记录清空，结果将重新记录。</h4></crnter>
+	<br>
+	<div id = "content">
+		<!-- <div class = "control-group">
+			<label class = "text-label" >Poc:</label>
+			<textarea class = "options" id="Poc"></textarea>
+		
+		</div> -->
+		<div class = "control-group">
+			<label class = "text-label" >扫描HOST域:</label>
+			<textarea class = "options" id="Url_filter"></textarea>
+		
+		</div>
+
+		<input type="button" id ="save_btn" value="SAVE"/>
+
+		<div class = "control-group">
+			<label class = "text-label" >问题URL缓存:</label>
+			<textarea class = "options" id="Url_catch" disabled></textarea>
+		
+		</div>
+
+		<input type="button" id ="clear_btn" value="Clear_Cache"/>
+		<!-- <div class = "control-group">
+			<label class = "text-label" >Page_filter:</label>
+			<textarea class = "options" id="Page_filter"></textarea>
+		</div> -->
+		
+	</div>
+	</body>
+</html>
+
+
+
