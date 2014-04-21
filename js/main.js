@@ -35,7 +35,7 @@ function url_scan(url)
 	{
 		//console.log("ok");
 		svn_scan(url);
-		xss_scan(url);
+		xsssql_scan(url);
 		dir_scan(url);
 		phpinfo_scan(url);
 		wp_scan(url);
