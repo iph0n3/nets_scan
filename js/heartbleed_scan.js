@@ -19,6 +19,7 @@ function heartbleed_scan(host){
                      	console.log('[ERR]:' + result.error);
                     }
 					if (result.code === 0) {
+						console.log("hacked");
 						log_write("https://"+uri,"心脏滴血漏洞");
 					}
 				
