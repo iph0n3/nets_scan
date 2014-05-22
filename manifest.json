@@ -1,6 +1,6 @@
 {
 	  "name": "漏洞扫描插件",
-	  "description": "自动扫描反射xss、目录遍历、svn泄露、wordpress后台地址、phpinfo泄露等漏洞。 By:网易信息安全部",
+	  "description": "自动扫描反射xss、目录遍历、svn泄露、wordpress后台地址、phpinfo泄露等漏洞。 By:网易信息安全部_adra1n",
 	  "version": "2.0",
 	  "options_page": "options.html",
 	  "background": {
@@ -14,7 +14,7 @@
 	    "tabs", "http://*/*", "https://*/*", "notifications","storage","webRequest","<all_urls>"
 	],
 	  "browser_action": {
-	    "default_title": "信息安全部扫描插件",
+	    "default_title": "安全扫描插件",
 		"default_icon": "icon.png",
 		"default_popup": "popup.html"
   	},
